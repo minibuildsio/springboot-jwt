@@ -1,0 +1,3 @@
+jwt:
+  secret: ${JWT_SECRET:secret}
+  life-span: ${JWT_LIFE_TIME:1800000} # milliseconds 30mins
